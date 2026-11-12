@@ -1,7 +1,7 @@
 .data
 msg_i:.asciiz "Digite o valor de n (deve ser maior que 2 e menor que 40):"
 msg_erro:.asciiz"Valor Invalido! Tente novamente \n"
-msg_res:.asciiz "A soma dos n numeros fibonacci é : "
+msg_res:.asciiz "A soma dos n numeros fibonacci Ã© : "
 .text
 main:
 entrada:
@@ -27,9 +27,9 @@ j entrada
   
  
 cal_fib:
-li $t1, 0
+li $t1, 1
 li $t2, 1
-li $t3, 1
+li $t3, 2
 li $t4, 2
 
 loop:
